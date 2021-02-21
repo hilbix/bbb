@@ -1,0 +1,19 @@
+{ "manifest_version": 2
+, "name": "Big Black Button"
+, "version": "0.0.0"
+, "description": "Replace New Tabs page with a Big Black Button"
+, "browser_action":
+  { "default_title": "Big Black Button configuration"
+  , "default_popup": "popup.html"
+  }
+, "icons":
+  { "16": "bbb16.png"
+  , "32": "bbb32.png"
+  , "48": "bbb48.png"
+  , "128": "bbb128.png"
+  }
+, "chrome_url_overrides": {
+    "newtab": "bbb.html"
+  }
+}
+
