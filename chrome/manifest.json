@@ -7,10 +7,7 @@
   , "default_popup": "popup.html"
   }
 , "icons":
-  { "16": "bbb16.png"
-  , "32": "bbb32.png"
-  , "48": "bbb48.png"
-  , "128": "bbb128.png"
+  { "128": "bbb128.png"
   }
 , "chrome_url_overrides": {
     "newtab": "bbb.html"
