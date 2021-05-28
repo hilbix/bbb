@@ -1,6 +1,6 @@
 'use strict';
 // This Works is placed under the terms of the Copyright Less License,
-// see file COPYRIGHT.CLL.  USE AT OWN RISK, ABSOLUTELY NO WARRANTY.                                                                          
+// see file COPYRIGHT.CLL.  USE AT OWN RISK, ABSOLUTELY NO WARRANTY.
 
 const $ = _ => document.getElementById(_);
 const $R = (fn,...a) => new Promise(ok => fn(...a, ok)).then(_ => { const e=chrome.runtime.lastError; if (e) throw e; return _ });
